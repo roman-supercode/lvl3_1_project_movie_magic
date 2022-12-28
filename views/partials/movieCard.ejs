@@ -1,0 +1,8 @@
+<% movieData.map ((movie)=> { %>
+    <figure class="movieCard">
+        <img src="http://image.tmdb.org/t/p/w300<%= movie.poster_path%>" alt="">
+        <figcaption>
+            <%= movie.title %>
+        </figcaption>
+    </figure>
+    <%}) %>
