@@ -1,6 +1,6 @@
 <% movieData.map ((movie)=> { %>
     <figure class="movieCard">
-        <img src="http://image.tmdb.org/t/p/w300<%= movie.poster_path%>" alt="">
+        <img src="http://image.tmdb.org/t/p/w300<%= movie.poster_path%>" alt="<%= movie.title %>">
         <figcaption>
             <%= movie.title %>
         </figcaption>
